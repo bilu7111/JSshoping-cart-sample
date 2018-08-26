@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Shopping Cart Example
+</title>
+<meta charset="utf-8">
+<meta http-equiv="content-type">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>A Shopping Cart Example</h1>
+<!--[[Resusable Code]]-->
+<!--Cart Form for estimation of total and order-->
+<form id="cart">
+<div class="items">
+<h2 class="product-header">Product 1</h2>
+<span class="rate"> Price:0.00$</span><br/>
+  <label for="q-p1" id="p1">Quantity desired:
+    <input type="number" min="0">
+</div>
+<div class="items">
+<h2 class="product-header">Product 2</h2>
+<span class="rate"> Price:0.00$</span><br/>
+  <label for="q-p2" id="p2">Quantity desired:
+    <input type="number" min="0">
+</div>
+<div class="items">
+<h2 class="product-header">Product 3</h2>
+<span class="rate"> Price:0.00$</span><br/>
+  <label for="q-p3" id="p3">Quantity desired:
+    <input type="number" min="0">
+</div>
+<div class="items">
+<h2 class="product-header">Product 4</h2>
+<span class="rate"> Price:0.00$</span><br/>
+  <label for="q-p4" id="p4">Quantity desired:
+    <input type="number" min="0">
+</div>
+<label for="submit">
+  <input type="submit" value="Estimate" id="submit">
+  <span id="estimate">0.00$</span>
+</form>
+<!--[[Resusable Code]]-->
+</body>
+<script src="script.js">
+</script>
+</html>

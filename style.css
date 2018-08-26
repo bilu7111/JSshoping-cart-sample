@@ -1,0 +1,26 @@
+html{
+  font-family: cursive;
+  font-size: 18px;
+}
+#cart{
+  font-family: helvetica;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  grid-gap: 50px;
+  background: wheat;
+  padding: 50px;
+}
+#submit{
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+#submit:hover{
+  background: violet;
+}
+.items{
+  background: hsla(20, 63%, 57%, 0.2);
+}
