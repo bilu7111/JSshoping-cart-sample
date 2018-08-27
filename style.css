@@ -1,10 +1,13 @@
+/*Global Styles*/
 html{
   font-family: cursive;
   font-size: 18px;
 }
+/*Cart Styles*/
 #cart{
   font-family: helvetica;
   margin: 50px;
+/*Grid Display makes it show in a manner*/
   display: grid;
   grid-template-columns: 200px 200px;
   grid-template-rows: 200px 200px;
@@ -12,13 +15,13 @@ html{
   background: wheat;
   padding: 50px;
 }
-#submit{
+#estimate-button{
   padding: 10px;
   border: none;
   cursor: pointer;
   transition: background 0.5s;
 }
-#submit:hover{
+#estimate-button:hover{
   background: violet;
 }
 .items{
