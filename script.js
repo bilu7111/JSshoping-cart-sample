@@ -7,8 +7,9 @@ var rate=document.getElementsByClassName("rate");
 
 //Making the price object constant so it can't be altered externally//
 const price=[25,29.99,19,24.99];
-/*Showing the price for each product in it's respective price box*/
+//The content is refreshed upon DOM being loaded//
 document.addEventListener("DOMContentLoaded",function(){
+//Showing the price for each product in it's respective price box//
 price.map(function(p,i){
 /*Notice I use the index of price object, as the length of price is the same as of rate length
 Leaving price for any product may cause an error*/
